@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>订单</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/order.css">
+    <script src="./jquery/jquery.min.js"></script>
+    <script src="./jquery-cookie/src/jquery.cookie.js"></script>
+    <script src="js/order.js"></script>
+</head>
+
+<body>
+    <!-- 遮罩 -->
+    <div id="mask">
+        <div class="mask">
+            结算成功，激活码将发送到您的邮箱
+        </div>
+    </div>
+    <div id="header"></div>
+    <div id="main">
+        <table>
+            <thead class="th">
+                <tr>
+                    <td class="column1">商品名称</td>
+                    <td class="column2">单价</td>
+                    <td class="column3">数量</td>
+                    <td class="column4">总价</td>
+                    <td class="column5">完成时间</td>
+                </tr>
+            </thead>
+            <tbody class="tb">
+                <!-- <tr>
+                    <td class="check">
+                        <input type="checkbox" name="" id="">
+                    </td>
+                    <td class="column1">
+                        <img src="https://resource.58gamebuy.com/uploads/file/20200908/i7cPNnUGJSgdC0TcbQ8K.jpeg"
+                            alt="">
+                        <p>人类一败涂地</p>
+                    </td>
+                    <td class="column2">
+                        <span class="price">￥24.00</span>
+                    </td>
+                    <td class="column3">
+                        <button class="reduce">-</button>
+                        <span>1</span>
+                        <button class="add">+</button>
+                    </td>
+                    <td class="column4">
+                        <span class="price">￥24.00</span>
+                    </td>
+                    <td class="column5">
+                        <button class="del">删除</button>
+                    </td>
+                </tr> -->
+            </tbody>
+            <!-- <tfoot class="tf">
+                <tr>
+                    <td class="price-info" colspan="4">
+                        共选中<span class="num">1</span>件商品，合计<span class="price">￥24</span>
+                    </td>
+                    <td class="payment" colspan="2">
+                        <button>结算</button>
+                    </td>
+                </tr>
+            </tfoot> -->
+        </table>
+    </div>
+    <div id="footer"></div>
+</body>
+
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>用户注册</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/register.css">
+    <script src="./jquery/jquery.min.js"></script>
+    <script src="./jquery-cookie/src/jquery.cookie.js"></script>
+    <script src="./validation/dist/jquery.validate.js"></script>
+    <script src="js/register.js"></script>
+    <script src="./validation/dist/localization/messages_zh.min.js"></script>
+</head>
+
+<body>
+    <!-- 遮罩 -->
+    <div id="mask">
+        <div class="mask">
+            注册成功，即将跳转登录页
+        </div>
+    </div>
+    <!-- 头部区域 -->
+    <div id="header">
+    </div>
+    <!-- 内容区 -->
+    <div id="main">
+        <form action="" id="register-from">
+            <h2>用户注册</h2>
+            <p class="form-input">
+                <label class="label-elm">用户名</label>
+                <input type="text" id="uName" name="uName">
+            </p>
+            <p class="form-input">
+                <label class="label-elm">密码</label>
+                <input type="text" id="uPwd" name="uPwd">
+            </p>
+            <p class="form-input">
+                <label class="label-elm">确认密码</label>
+                <input type="text" id="rePwd" name="rePwd">
+            </p>
+            <p class="form-input">
+                <label class="label-elm">手机号</label>
+                <input type="text" id="uTel" name="uTel">
+            </p>
+            <p class="form-input">
+                <label class="label-elm">邮箱</label>
+                <input type="text" id="uEmail" name="uEmail">
+            </p>
+            <p class="check-input">
+                <input type="checkbox" id="uServer" name="uServer">
+                <label class="label-elm" for="uServer">同意<a href="">《用户服务协议》</a></label>
+            </p>
+            <p class="form-input">
+                <input type="submit" value="注册" id="uSub">
+            </p>
+        </form>
+    </div>
+    <!-- 底部区域 -->
+    <div id="footer">
+    </div>
+</body>
+
+
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="referrer" content="no-referrer">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>详情页</title>
+    <link rel="stylesheet" href="css/details.css">
+    <link rel="stylesheet" href="css/base.css">
+    <script src="./jquery/jquery.min.js"></script>
+    <script src="js/details.js"></script>
+    <script src="./jquery-cookie/src/jquery.cookie.js"></script>
+</head>
+
+<body>
+    <div id="header"></div>
+    <div id="main">
+        <div class="details-top">
+            <div class="details-img">
+                <img src="https://resource.58gamebuy.com/uploads/file/20200811/JojkTB5GL8OLchQvcKjA.jpeg" alt="">
+            </div>
+            <div class="details-info">
+                <p class="title">育碧超值三合一账号</p>
+                <p class="desc">内含1.荣耀战魂2.极限巅峰3.刺客信条：兄弟会</p>
+                <div class="tag-box">
+                    <span class="tag">即买即玩</span>
+                    <span class="tag">超值特惠</span>
+                </div>
+                <div class="sale-box">
+                    <div class="old-price" style="display: block;">
+                        <label class="price-title">原价</label><span>￥99.8</span>
+                    </div>
+                    <div class="main-info">
+                        <p class="new-price">
+                            <label class="price-title">现价</label><span>￥<strong>12.8</strong></span>
+                        </p>
+                        <p class="sale-count">累计出售：38件</p>
+                    </div>
+                </div>
+                <button class="add">加入购物车</button>
+                <button class="buy">查看购物车</button>
+            </div>
+        </div>
+        <div class="details-bottom">
+            <div class="title">
+                <span>商品简介</span>
+            </div>
+            <div class="info">
+                <img src="img/anzhuang.jpeg" alt="">
+            </div>
+        </div>
+    </div>
+    <div id="footer"></div>
+    <script>
+        $("#header").load("./header.html");
+        $("#footer").load("./footer.html");
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,358 @@
+html,
+body {
+  background-color: #1D1F27;
+  color: #c0c0c2;
+  overflow-x: hidden;
+}
+
+#banner {
+  height: 500px;
+}
+#banner .swiper-container {
+  height: 500px;
+  --swiper-theme-color: #ee6e47;
+}
+#banner .swiper-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#main {
+  width: 1200px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+#main .part-four {
+  width: 1200px;
+}
+#main .part-four .title {
+  margin-top: 30px;
+  padding: 15px 0;
+}
+#main .part-four .title .main-title {
+  font-size: 22px;
+}
+#main .part-four .title .sub-title {
+  margin-left: 5px;
+  font-size: 12px;
+}
+#main .part-four .content {
+  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#main .part-four .content li {
+  width: 24%;
+  height: 260px;
+  float: left;
+  background-color: #282931;
+  overflow: hidden;
+  border-radius: 5px;
+  transition: 0.2s;
+}
+#main .part-four .content li:hover {
+  transform: translateY(-10px);
+}
+#main .part-four .content li a {
+  display: block;
+  position: relative;
+}
+#main .part-four .content li a .cut-percent {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 16px;
+  background-color: #6bb247;
+  color: #fff;
+  padding: 0 5px;
+  border-radius: 0 5px 0 5px;
+}
+#main .part-four .content li a img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+#main .part-four .content li a .info {
+  padding: 10px;
+  position: relative;
+}
+#main .part-four .content li a .info .info-title {
+  color: #c0c0c2;
+}
+#main .part-four .content li a .info .min-price {
+  font-size: 16px;
+  color: #ee6e47;
+}
+#main .part-four .content li a .info .min-price .price {
+  font-size: 28px;
+}
+#main .part-four .content li a .info .max-price {
+  text-decoration: line-through;
+  color: #c0c0c2;
+  font-size: 12px;
+}
+#main .part-four .content li a .info .info-tag {
+  font-size: 12px;
+  padding: 0px 5px;
+  margin-left: 5px;
+  color: #c0c0c2;
+  border: 1px solid #c0c0c2;
+  position: absolute;
+  right: 10px;
+  bottom: 15px;
+}
+#main .preferential .title {
+  margin-top: 30px;
+  padding: 15px 0;
+}
+#main .preferential .title .main-title {
+  font-size: 22px;
+}
+#main .preferential .title .sub-title {
+  margin-left: 5px;
+  font-size: 12px;
+}
+#main .preferential .content {
+  display: flex;
+  justify-content: space-between;
+}
+#main .preferential .content li {
+  width: 24%;
+  float: left;
+  border-radius: 5px;
+  overflow: hidden;
+}
+#main .preferential .content li img {
+  width: 100%;
+}
+#main .preferential .content .list1 {
+  position: relative;
+}
+#main .preferential .content .list1 a {
+  color: #fff;
+}
+#main .preferential .content .list1 a img {
+  opacity: 0.5;
+  height: 100%;
+  object-fit: cover;
+}
+#main .preferential .content .list1 a p {
+  position: absolute;
+  width: 100%;
+  top: 40px;
+  padding: 0px 5px;
+  text-align: center;
+  font-size: 28px;
+}
+#main .preferential .content .list1 a .tag {
+  position: absolute;
+  top: 85px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 0 5px;
+  border: 1px solid #c0c0c2;
+  text-align: center;
+  font-size: 12px;
+}
+#main .preferential .content .list1 a .info {
+  position: absolute;
+  width: 100%;
+  bottom: 40px;
+  text-align: center;
+}
+#main .preferential .content .list1 a .info .cut-percent {
+  background-color: #6bb247;
+  font-size: 24px;
+  padding: 0 5px;
+  border-radius: 5px;
+}
+#main .preferential .content .list1 a .info .max-price {
+  text-decoration: line-through;
+  color: #c0c0c2;
+  font-size: 24px;
+}
+#main .preferential .content .list1 a .info .min-price {
+  font-size: 24px;
+  color: #ee6e47;
+}
+#main .preferential .content .list1 a .info .min-price .price {
+  font-size: 32px;
+}
+#main .preferential .content .list2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#main .preferential .content .list2 a {
+  background-color: #282931;
+  height: 49%;
+  border-radius: 5px;
+  display: block;
+  position: relative;
+}
+#main .preferential .content .list2 a:hover {
+  background-color: #33343f;
+}
+#main .preferential .content .list2 a .cut-percent {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 16px;
+  background-color: #6bb247;
+  color: #fff;
+  padding: 0 5px;
+  border-radius: 0 5px 0 5px;
+}
+#main .preferential .content .list2 a img {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+}
+#main .preferential .content .list2 a .info {
+  padding: 10px;
+  position: relative;
+}
+#main .preferential .content .list2 a .info .info-title {
+  color: #c0c0c2;
+}
+#main .preferential .content .list2 a .info .min-price {
+  font-size: 16px;
+  color: #ee6e47;
+}
+#main .preferential .content .list2 a .info .min-price .price {
+  font-size: 28px;
+}
+#main .preferential .content .list2 a .info .max-price {
+  text-decoration: line-through;
+  color: #c0c0c2;
+  font-size: 12px;
+}
+#main .preferential .content .list2 a .info .info-tag {
+  font-size: 12px;
+  padding: 0px 5px;
+  margin-left: 5px;
+  color: #c0c0c2;
+  border: 1px solid #c0c0c2;
+  position: absolute;
+  right: 10px;
+  bottom: 15px;
+}
+#main .sort {
+  margin-top: 30px;
+}
+#main .sort .header {
+  padding: 15px 0;
+  overflow: hidden;
+}
+#main .sort .header li {
+  float: left;
+  font-size: 22px;
+  color: #c0c0c2;
+  margin-right: 30px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+#main .sort .header li:hover {
+  color: #fff;
+  border-bottom: 3px solid #ee6e47;
+}
+#main .sort .header .active {
+  color: #fff;
+  border-bottom: 3px solid #ee6e47;
+}
+#main .sort .item li {
+  border-radius: 5px;
+  overflow: hidden;
+  background-color: #282931;
+  overflow: hidden;
+  margin-bottom: 15px;
+  transition: all 0.2s;
+}
+#main .sort .item li:hover {
+  background-color: #33343f;
+}
+#main .sort .item li a {
+  display: block;
+  overflow: hidden;
+  color: #c0c0c2;
+}
+#main .sort .item li a img {
+  width: 290px;
+  height: 110px;
+  object-fit: cover;
+  float: left;
+  margin-right: 15px;
+}
+#main .sort .item li a .main-info {
+  width: 600px;
+  padding: 9px 0;
+  float: left;
+}
+#main .sort .item li a .main-info .title {
+  width: 100%;
+  font-size: 16px;
+  line-height: 32px;
+  color: #fff;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+#main .sort .item li a .main-info .desc {
+  font-size: 14px;
+  line-height: 28px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+#main .sort .item li a .main-info .tag {
+  margin-top: 10px;
+}
+#main .sort .item li a .main-info .tag span {
+  padding: 0 5px;
+  margin-right: 5px;
+  border: 1px solid #c0c0c2;
+  text-align: center;
+  font-size: 12px;
+}
+#main .sort .item li a .price-info {
+  float: right;
+  margin: 39px 30px 0 0;
+}
+#main .sort .item li a .price-info .cut-percent {
+  background-color: #6bb247;
+  font-size: 16px;
+  padding: 0 5px;
+  border-radius: 5px;
+  color: #fff;
+}
+#main .sort .item li a .price-info .max-price {
+  text-decoration: line-through;
+  color: #c0c0c2;
+  font-size: 16px;
+}
+#main .sort .item li a .price-info .min-price {
+  font-size: 16px;
+  color: #ee6e47;
+}
+#main .sort .item li a .price-info .min-price .price {
+  font-size: 28px;
+}
+#main .sort .more {
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  background-color: #282931;
+  cursor: pointer;
+  transition: all 0.2s;
+  border-radius: 5px;
+}
+#main .sort .more:hover {
+  background-color: #33343f;
+  color: #fff;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>用户登录</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/login.css">
+    <script src="./jquery/jquery.min.js"></script>
+    <script src="./validation/dist/jquery.validate.min.js"></script>
+    <script src="./validation/dist/localization/messages_zh.min.js"></script>
+    <script src="./js/gverify.js"></script>
+    <script src="js/login.js"></script>
+    <script src="./jquery-cookie/src/jquery.cookie.js"></script>
+</head>
+
+<body>
+    <!-- 遮罩 -->
+    <div id="mask">
+        <div class="mask">
+            登录成功，即将跳转之前的网页
+        </div>
+    </div>
+    <!-- 头部区域 -->
+    <div id="header"></div>
+    <!-- 内容区 -->
+    <div id="main">
+        <form action="" id="register-from">
+            <h2>用户登录</h2>
+            <p class="form-input">
+                <label class="label-elm">用户名</label>
+                <input type="text" id="uName" name="uName">
+            </p>
+            <p class="form-input">
+                <label class="label-elm">密码</label>
+                <input type="password" id="uPwd" name="uPwd">
+            </p>
+            <p class="form-input">
+                <label class="label-elm">验证码</label>
+                <input type="text" id="uCode" name="uCode">
+                <span id="code"></span>
+            </p>
+            <p class="form-input">
+                <input type="submit" value="登录" id="uSub">
+                <a href="register.html">还没有账号？点此注册</a>
+            </p>
+        </form>
+    </div>
+    <!-- 底部区域 -->
+    <div id="footer"></div>
+
+
+</body>
+
+
+</html>

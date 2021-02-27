@@ -1,0 +1,109 @@
+$hc:#13141A;
+$bgc:#1D1F27;
+$cc:#282931;
+$fc:#c0c0c2;
+$pc:#ee6e47;
+
+#header {
+    width: 100%;
+    height: 66px;
+    background-color: $hc;
+
+    .header {
+        width: 1200px;
+        height: 66px;
+        // line-height: 66px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+
+        .logo {
+            width: 150px;
+
+            img {
+                display: block;
+            }
+        }
+
+        .nav {
+            flex: 1;
+            display: flex;
+            justify-content: space-evenly;
+            justify-items: center;
+
+            li {
+                float: left;
+                transition: border 0.2s;
+                
+                &:hover {
+                    border-bottom: 3px solid $pc;
+                }
+
+                a {
+                    color: $fc;
+                }
+            }
+            .active{
+                border-bottom: 3px solid $pc;
+            }
+        }
+
+        .search {
+            width: 194px;
+            height: 34px;
+
+            input {
+                height: 34px;
+                background-color: #2B2C31;
+            }
+
+            #search-in {
+                width: 160px;
+                padding: 0 10px;
+                color: $fc;
+                float: left;
+            }
+
+            #search-btn {
+                width: 34px;
+                float: left;
+                cursor: pointer;
+                background: url(../img/search-icon.png) no-repeat center center #2B2C31;
+            }
+        }
+
+        .login {
+            width: 50px;
+            text-align: center;
+            font-size: 12px;
+            color: $fc;
+        }
+        .userInfo{
+            width: 75px;
+            font-size: 16px;
+            border-radius: 5px;
+            background-color: $cc;
+            color: #fff;
+            position: absolute;
+            bottom: -75px;
+            z-index: 999;
+            display: none;
+            right: -37px;
+            text-align: center;
+            li{
+                padding: 5px 0;
+                background-color: $cc;
+                cursor: pointer;
+                &:hover{
+                    background-color: $fc;
+                    color: #000;
+                }
+            }
+        }
+        .active{
+            display: block;
+        }
+    }
+}

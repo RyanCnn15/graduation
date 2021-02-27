@@ -1,0 +1,112 @@
+html,
+body {
+  background-color: #1D1F27;
+  color: #c0c0c2;
+  overflow-x: hidden;
+}
+
+#main {
+  width: 1200px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+#main .details-top {
+  width: 1200px;
+  padding: 20px;
+  margin-top: 40px;
+  background-color: #282931;
+  overflow: hidden;
+}
+#main .details-top .details-img {
+  width: 520px;
+  height: 324px;
+  float: left;
+}
+#main .details-top .details-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#main .details-top .details-info {
+  width: 620px;
+  float: right;
+}
+#main .details-top .details-info .title {
+  font-size: 18px;
+  color: #fff;
+  margin-bottom: 2px;
+}
+#main .details-top .details-info .desc {
+  font-size: 14px;
+  color: #c0c0c2;
+  margin-bottom: 5px;
+}
+#main .details-top .details-info .tag-box {
+  margin-bottom: 20px;
+}
+#main .details-top .details-info .tag-box .tag {
+  padding: 0 5px;
+  border: 1px solid #c0c0c2;
+  text-align: center;
+  font-size: 12px;
+}
+#main .details-top .details-info .sale-box {
+  width: 620px;
+  height: 70px;
+  padding: 10px;
+  background-color: #343641;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+#main .details-top .details-info .sale-box .old-price .price-title {
+  margin-right: 20px;
+}
+#main .details-top .details-info .sale-box .old-price span {
+  text-decoration: line-through;
+}
+#main .details-top .details-info .sale-box .main-info {
+  position: relative;
+}
+#main .details-top .details-info .sale-box .main-info .price-title {
+  margin-right: 20px;
+}
+#main .details-top .details-info .sale-box .main-info span {
+  color: #ee6e47;
+  font-size: 14px;
+}
+#main .details-top .details-info .sale-box .main-info span strong {
+  font-size: 24px;
+}
+#main .details-top .details-info .sale-box .main-info .sale-count {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+#main .details-top .details-info button {
+  width: 236px;
+  height: 58px;
+  color: #fff;
+  background-color: #ee6e47;
+  font-size: 20px;
+  cursor: pointer;
+}
+#main .details-bottom {
+  width: 1200px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  background-color: #282931;
+  overflow: hidden;
+}
+#main .details-bottom .title {
+  height: 56px;
+}
+#main .details-bottom .title span {
+  padding: 15px 30px;
+  font-size: 18px;
+  line-height: 56px;
+  background-color: #343641;
+  border-bottom: 3px solid #ee6e47;
+}
+#main .details-bottom .info {
+  padding: 20px;
+}

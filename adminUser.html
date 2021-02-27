@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/adminUser.css">
+    <script src="jquery/jquery.min.js"></script>
+    <script src="js/adminUser.js"></script>
+    <script src="./jquery-pagination/jquery.pagination.js"></script>
+</head>
+
+<body>
+    <div class="mask" style="display: none;">
+        <div class="in">
+            <p>
+                用户名
+                <input type="text" id="uName">
+            </p>
+            <p>
+                密码
+                <input type="text" id="uPwd">
+            </p>
+            <p>
+                手机号
+                <input type="text" id="uTel">
+            </p>
+            <p>
+                邮箱
+                <input type="text" id="uEmail">
+            </p>
+            <p>
+                <button class="sub">提交</button>
+                <button class="cancel">取消</button>
+            </p>
+        </div>
+    </div>
+    <div id="header">
+        <div class="header">
+            <h1 class="logo">
+                <a>
+                    <img src="img/logo2.jpg" alt="">
+                </a>
+            </h1>
+            <p>后台管理</p>
+        </div>
+    </div>
+    <div id="main">
+        <ul class="left">
+            <li class="active">用户管理<span>＞</span></li>
+            <li>查看订单<span>＞</span></li>
+            <li>商品管理<span>＞</span></li>
+            <li>修改管理员<span>＞</span></li>
+            <li>退出系统</li>
+        </ul>
+        <div class="right">
+            <div class="opt">
+                <button class="add">添加</button>
+                <button class="delA">批量删除</button>
+                每页显示:
+                <select name="" id="num">
+                    <option value="10">10</option>
+                    <option value="20">20</option>
+                    <option value="20">50</option>
+                </select>条
+                <div class="search">
+                    <input type="text" id="search-in" placeholder="请输入关键词">
+                    <input type="button" id="search-btn">
+                </div>
+            </div>
+            <table>
+                <thead class="th">
+                    <tr>
+                        <td>
+                            <input type="checkbox" name="" id="">
+                        </td>
+                        <td>用户id</td>
+                        <td>用户名</td>
+                        <td>用户密码</td>
+                        <td>手机号</td>
+                        <td>邮箱</td>
+                        <td>操作</td>
+                    </tr>
+                </thead>
+                <tbody class="tb">
+                    <!-- <tr>
+                        <td>
+                            <input type="checkbox" name="" id="" checked>
+                        </td>
+                        <td>1</td>
+                        <td>ryan</td>
+                        <td>123456</td>
+                        <td>15578513962</td>
+                        <td>1036603178@qq.com</td>
+                        <td>
+                            <button class="modify">修改</button>
+                            <button class="del">删除</button>
+                        </td>
+                    </tr> -->
+                </tbody>
+                <tfoot class="tf">
+                    <tr>
+                        <td colspan="99">
+                            <div class="page"></div>
+                        </td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+    </div>
+</body>
+
+</html>

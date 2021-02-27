@@ -1,0 +1,266 @@
+$hc:#13141A;
+$bgc:#1D1F27;
+$cc:#282931;
+$fc:#c0c0c2;
+$pc:#ee6e47;
+
+html,
+body {
+    background-color: $bgc;
+}
+
+.mask {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.5);
+
+    .in {
+        width: 300px;
+        padding: 20px;
+        position: relative;
+        top: 20%;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: $cc;
+        color: $fc;
+        border-radius: 5px;
+
+        p {
+            padding: 5px;
+
+            input {
+                float: right;
+                background-color: #51535c;
+                color: $fc;
+            }
+
+            button {
+                width: 80px;
+                height: 25px;
+                cursor: pointer;
+            }
+
+            .sub {
+                background-color: #5ab03a;
+            }
+
+            .cancel {
+                background-color: #b03a3a;
+            }
+        }
+    }
+}
+
+#header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 66px;
+    background-color: $hc;
+
+    .header {
+        width: 1200px;
+        height: 66px;
+        line-height: 66px;
+        margin: 0 auto;
+        padding-top: 0px;
+
+        .logo {
+            width: 150px;
+            margin-top: 20px;
+            float: left;
+
+            img {
+                display: block;
+            }
+        }
+
+        p {
+            margin-left: 20px;
+            width: 200px;
+            font-size: 24px;
+            float: left;
+            color: #fff;
+            text-align: left;
+        }
+    }
+}
+
+#main {
+    height: 100%;
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 86px;
+    padding-bottom: 20px;
+
+    .left {
+        width: 200px;
+        height: 100%;
+        padding-top: 20px;
+        background-color: $cc;
+        color: $fc;
+        float: left;
+        text-align: center;
+        transition: 0.5s;
+
+        // font-weight: 900;
+        li {
+            padding: 15px 20px;
+            border-bottom: 1px solid #3e404d;
+            cursor: pointer;
+            text-align: left;
+
+            &:hover {
+                color: #fff;
+                background-color: $pc;
+            }
+
+            span {
+                float: right;
+            }
+        }
+
+        .active {
+            color: #fff;
+            background-color: $pc;
+        }
+    }
+
+    .right {
+        float: right;
+        // padding-top: 20px;
+        // padding-left: 20px;
+        padding: 20px;
+        width: 980px;
+        height: 100%;
+        background-color: $cc;
+        overflow-y: auto;
+        color: $fc;
+
+        .opt {
+            width: 100%;
+            margin-bottom: 10px;
+            overflow: hidden;
+
+            button {
+                width: 65px;
+                height: 30px;
+                cursor: pointer;
+                color: #fff;
+            }
+
+            .add {
+                background-color: #5ab03a;
+            }
+
+            .delA {
+                background-color: #b03a3a;
+            }
+
+            .search {
+                float: right;
+                width: 234px;
+                height: 34px;
+                background-color: #fff;
+
+                #search-in {
+                    height: 34px;
+                    width: 200px;
+                    padding: 0 10px;
+                    color: #000;
+                    float: left;
+                }
+
+                #search-btn {
+                    height: 34px;
+                    width: 34px;
+                    float: left;
+                    cursor: pointer;
+                    background: url(../img/search-icon.png) no-repeat center center #fff;
+                }
+            }
+        }
+
+        table {
+            color: #fff;
+            width: 100%;
+            background-color: #737373;
+
+            td {
+                max-width: 150px;
+                word-wrap: break-word;
+                word-break: break-all;
+                text-overflow: ellipsis；
+            }
+
+            .th {
+                tr {
+                    td {
+                        padding: 15px 0;
+                    }
+                }
+
+                background-color: #404040;
+            }
+
+            .tb {
+                td {
+                    padding: 10px 0;
+                    border-bottom: 1px solid #3e404d;
+
+                    button {
+                        width: 50px;
+                        height: 25px;
+                        cursor: pointer;
+                        color: #fff;
+                    }
+
+                    .modify {
+                        background-color: #5ab03a;
+                    }
+
+                    .del {
+                        background-color: #b03a3a;
+                    }
+                }
+            }
+            .tf{
+                .page{
+                    overflow: hidden;
+                    a{
+                        padding:0px 10px;
+                        height: 34px;
+                        line-height: 34px;
+                        margin: 5px;
+                        display: block;
+                        float: left;
+                        background-color: #404040;
+                        border: 1px solid $fc;
+                        color: #fff;
+                    }
+                    span{
+                        padding:0px 10px;
+                        height: 34px;
+                        line-height: 34px;
+                        margin: 5px;
+                        display: block;
+                        float: left;
+                        background-color: $pc;
+                        border: 1px solid $fc;
+                        color: #fff;
+                    }
+                    input{
+                        height: 34px;
+                        width: 34px;
+                        text-align: center;
+                        display: block;
+                        float: left;
+                        border:none;outline: none;
+                        margin-top: 5px;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,96 @@
+html,
+body {
+  background-color: #1D1F27;
+  color: #c0c0c2;
+}
+
+#main {
+  width: 1200px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+#main .msg {
+  font-size: 18px;
+  text-align: center;
+  margin: 20px 0;
+  background-color: #282931;
+  padding: 15px;
+  border-radius: 5px;
+}
+#main .msg span {
+  color: #ee6e47;
+  font-size: 24px;
+  margin: 0px 10px;
+}
+#main .part-four {
+  width: 1200px;
+}
+#main .part-four .content {
+  width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+#main .part-four .content li {
+  width: 24%;
+  height: 215px;
+  float: left;
+  background-color: #282931;
+  overflow: hidden;
+  border-radius: 5px;
+  transition: 0.2s;
+  margin: 10px 6px;
+}
+#main .part-four .content li:hover {
+  transform: translateY(-10px);
+}
+#main .part-four .content li a {
+  display: block;
+  position: relative;
+}
+#main .part-four .content li a .cut-percent {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 16px;
+  background-color: #6bb247;
+  color: #fff;
+  padding: 0 5px;
+  border-radius: 0 5px 0 5px;
+}
+#main .part-four .content li a img {
+  width: 100%;
+  height: 135px;
+  display: block;
+  object-fit: cover;
+}
+#main .part-four .content li a .info {
+  padding: 10px;
+  position: relative;
+}
+#main .part-four .content li a .info .info-title {
+  color: #c0c0c2;
+}
+#main .part-four .content li a .info .min-price {
+  font-size: 16px;
+  color: #ee6e47;
+}
+#main .part-four .content li a .info .min-price .price {
+  font-size: 28px;
+}
+#main .part-four .content li a .info .max-price {
+  text-decoration: line-through;
+  color: #c0c0c2;
+  font-size: 12px;
+}
+#main .part-four .content li a .info .info-tag {
+  font-size: 12px;
+  padding: 0px 5px;
+  margin-left: 5px;
+  color: #c0c0c2;
+  border: 1px solid #c0c0c2;
+  position: absolute;
+  right: 10px;
+  bottom: 15px;
+}

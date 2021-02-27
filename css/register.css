@@ -1,0 +1,163 @@
+#mask {
+  display: none;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+}
+#mask .mask {
+  border-radius: 5px;
+  width: 350px;
+  height: 100px;
+  line-height: 100px;
+  color: #fff;
+  font-size: 20px;
+  z-index: 999;
+  background-color: #282931;
+  text-align: center;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#header {
+  width: 100%;
+  height: 66px;
+  background-color: #13141A;
+}
+#header .header {
+  width: 1200px;
+  height: 66px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#header .header .logo {
+  width: 150px;
+}
+#header .header .logo img {
+  display: block;
+}
+#header .header .nav {
+  flex: 1;
+  display: flex;
+  justify-content: space-evenly;
+  justify-items: center;
+}
+#header .header .nav li {
+  float: left;
+  transition: border 0.2s;
+}
+#header .header .nav li:first-child {
+  border-bottom: 3px solid #ee6e47;
+}
+#header .header .nav li:hover {
+  border-bottom: 3px solid #ee6e47;
+}
+#header .header .nav li a {
+  color: #c0c0c2;
+}
+#header .header .search {
+  width: 194px;
+  height: 34px;
+}
+#header .header .search input {
+  height: 34px;
+  background-color: #2B2C31;
+}
+#header .header .search #search-in {
+  width: 160px;
+  padding: 0 10px;
+  color: #c0c0c2;
+  float: left;
+}
+#header .header .search #search-btn {
+  width: 34px;
+  float: left;
+  cursor: pointer;
+  background: url(../img/search-icon.png) no-repeat center center #2B2C31;
+}
+#header .header .login {
+  width: 50px;
+  text-align: center;
+  font-size: 12px;
+  color: #c0c0c2;
+}
+
+#main {
+  height: 650px;
+  background-color: #1D1F27;
+  background-size: cover;
+  color: #c0c0c2;
+  overflow: hidden;
+}
+#main #register-from {
+  margin: 50px auto;
+  width: 900px;
+  overflow: hidden;
+  padding-bottom: 30px;
+  background-color: #282931;
+  color: #c0c0c2;
+}
+#main #register-from h2 {
+  font-size: 30px;
+  line-height: 64px;
+  border-bottom: 1px solid #c0c0c2;
+  text-align: center;
+}
+#main #register-from .form-input {
+  overflow: hidden;
+  width: 100%;
+  margin: 20px 0;
+}
+#main #register-from .form-input .error {
+  line-height: 40px;
+  color: #ee6e47;
+}
+#main #register-from .form-input .label-elm {
+  display: block;
+  width: 300px;
+  line-height: 40px;
+  text-align: right;
+  float: left;
+}
+#main #register-from .form-input input {
+  margin: 0 10px;
+  padding: 0 10px;
+  width: 300px;
+  height: 40px;
+  display: block;
+  float: left;
+}
+#main #register-from .form-input #uSub {
+  margin: 0 310px;
+  cursor: pointer;
+  color: #fff;
+  font-size: 16px;
+  background-color: #ee6e47;
+  transition: all 0.2s;
+}
+#main #register-from .form-input #uSub:hover {
+  background-color: #ee3b04;
+}
+#main #register-from .check-input {
+  width: 600px;
+  height: 20px;
+  margin-left: 310px;
+}
+#main #register-from .check-input #uServer {
+  width: 15px;
+  height: 15px;
+  line-height: 20px;
+}
+
+#footer {
+  height: 50px;
+  line-height: 50px;
+  background-color: #13141A;
+  text-align: center;
+  color: #c0c0c2;
+  font-size: 14px;
+}

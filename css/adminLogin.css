@@ -1,0 +1,59 @@
+#main {
+  height: 100%;
+  background-color: #1D1F27;
+  background-size: cover;
+  color: #c0c0c2;
+  overflow: hidden;
+}
+#main #register-from {
+  margin: 100px auto;
+  width: 600px;
+  overflow: hidden;
+  padding-bottom: 30px;
+  background-color: #282931;
+  color: #c0c0c2;
+}
+#main #register-from h2 {
+  font-size: 30px;
+  line-height: 64px;
+  border-bottom: 1px solid #c0c0c2;
+  text-align: center;
+}
+#main #register-from a {
+  margin: 10px 0 0 450px;
+  color: #c0c0c2;
+}
+#main #register-from a:hover {
+  color: #ee6e47;
+}
+#main #register-from .form-input {
+  overflow: hidden;
+  width: 100%;
+  margin: 20px 0;
+}
+#main #register-from .form-input .label-elm {
+  display: block;
+  width: 150px;
+  line-height: 40px;
+  text-align: right;
+  float: left;
+}
+#main #register-from .form-input input {
+  margin: 0 10px;
+  padding: 0 10px;
+  width: 300px;
+  height: 40px;
+  display: block;
+  float: left;
+}
+#main #register-from .form-input #uSub {
+  margin: 0 160px;
+  cursor: pointer;
+  color: #fff;
+  font-size: 16px;
+  background-color: #ee6e47;
+  transition: all 0.2s;
+}
+#main #register-from .form-input #uSub:hover {
+  background-color: #ee3b04;
+}

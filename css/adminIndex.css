@@ -1,0 +1,180 @@
+@charset "UTF-8";
+html,
+body {
+  background-color: #1D1F27;
+}
+
+.mask {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.mask .in {
+  width: 300px;
+  padding: 20px;
+  position: relative;
+  top: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #282931;
+  color: #c0c0c2;
+  border-radius: 5px;
+}
+.mask .in p {
+  padding: 5px;
+}
+.mask .in p input {
+  float: right;
+  background-color: #51535c;
+  color: #c0c0c2;
+}
+.mask .in p button {
+  width: 80px;
+  height: 25px;
+  cursor: pointer;
+}
+.mask .in p .sub {
+  background-color: #5ab03a;
+}
+.mask .in p .cancel {
+  background-color: #b03a3a;
+}
+
+#header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 66px;
+  background-color: #13141A;
+}
+#header .header {
+  width: 1200px;
+  height: 66px;
+  line-height: 66px;
+  margin: 0 auto;
+  padding-top: 0px;
+}
+#header .header .logo {
+  width: 150px;
+  margin-top: 20px;
+  float: left;
+}
+#header .header .logo img {
+  display: block;
+}
+#header .header p {
+  margin-left: 20px;
+  width: 200px;
+  font-size: 24px;
+  float: left;
+  color: #fff;
+  text-align: left;
+}
+
+#main {
+  height: 100%;
+  width: 1200px;
+  margin: 0 auto;
+  padding-top: 86px;
+  padding-bottom: 20px;
+}
+#main .left {
+  width: 200px;
+  height: 100%;
+  padding-top: 20px;
+  background-color: #282931;
+  color: #c0c0c2;
+  float: left;
+  text-align: center;
+  transition: 0.5s;
+}
+#main .left li {
+  padding: 15px 20px;
+  border-bottom: 1px solid #3e404d;
+  cursor: pointer;
+  text-align: left;
+}
+#main .left li:hover {
+  color: #fff;
+  background-color: #ee6e47;
+}
+#main .left li span {
+  float: right;
+}
+#main .left .active {
+  color: #fff;
+  background-color: #ee6e47;
+}
+#main .right {
+  float: right;
+  padding: 20px;
+  width: 980px;
+  height: 100%;
+  background-color: #282931;
+  overflow-y: auto;
+  color: #c0c0c2;
+}
+#main .right .opt {
+  width: 100%;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+#main .right .opt button {
+  width: 60px;
+  height: 25px;
+  cursor: pointer;
+}
+#main .right .opt .search {
+  float: right;
+  width: 234px;
+  height: 34px;
+  background-color: #fff;
+}
+#main .right .opt .search #search-in {
+  height: 34px;
+  width: 200px;
+  padding: 0 10px;
+  color: #000;
+  float: left;
+}
+#main .right .opt .search #search-btn {
+  height: 34px;
+  width: 34px;
+  float: left;
+  cursor: pointer;
+  background: url(../img/search-icon.png) no-repeat center center #fff;
+}
+#main .right table {
+  color: #fff;
+  width: 100%;
+  background-color: #737373;
+}
+#main .right table td {
+  max-width: 150px;
+  word-wrap: break-word;
+  word-break: break-all;
+  text-overflow: ellipsis；;
+}
+#main .right table .th {
+  background-color: #404040;
+}
+#main .right table .th tr td {
+  padding: 15px 0;
+}
+#main .right table .tb td {
+  padding: 10px 0;
+  border-bottom: 1px solid #3e404d;
+}
+#main .right table .tb td button {
+  width: 50px;
+  height: 25px;
+  cursor: pointer;
+  color: #fff;
+}
+#main .right table .tb td .modify {
+  background-color: #5ab03a;
+}
+#main .right table .tb td .del {
+  background-color: #b03a3a;
+}

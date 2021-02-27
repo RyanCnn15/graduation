@@ -1,0 +1,77 @@
+$hc:#13141A;
+$bgc:#1D1F27;
+$cc:#282931;
+$fc:#c0c0c2;
+$pc:#ee6e47;
+
+#main {
+    height: 100%;
+    // background: url(../img/registerbg.jpg) no-repeat center center;
+    background-color: $bgc;
+    background-size: cover;
+    color: $fc;
+    // position: relative;
+    // margin: 0;
+    overflow: hidden;
+
+    #register-from {
+        // border-radius: 5px;
+        margin: 100px auto;
+        width: 600px;
+        overflow: hidden;
+        padding-bottom: 30px;
+        // background-color: rgba(0,0,0,0.8);
+        background-color: $cc;
+        color: $fc;
+
+        h2 {
+            font-size: 30px;
+            line-height: 64px;
+            border-bottom: 1px solid $fc;
+            text-align: center;
+        }
+        a{
+            margin: 10px 0 0 450px;
+            color: $fc;
+            &:hover{
+                color: $pc;
+            }
+            // display: block;
+        }
+        .form-input {
+            overflow: hidden;
+            width: 100%;
+            margin: 20px 0;
+
+            .label-elm {
+                display: block;
+                width: 150px;
+                line-height: 40px;
+                text-align: right;
+                float: left;
+            }
+
+            input {
+                margin: 0 10px;
+                padding: 0 10px;
+                width: 300px;
+                height: 40px;
+                display: block;
+                float: left;
+            }
+
+            #uSub {
+                margin: 0 160px;
+                cursor: pointer;
+                color: #fff;
+                font-size: 16px;
+                background-color: #ee6e47;
+                transition: all 0.2s;
+                
+                &:hover {
+                    background-color: #ee3b04;
+                }
+            }
+        }
+    }
+}
